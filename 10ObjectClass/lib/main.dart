@@ -4,10 +4,26 @@
 
 // فائدة هذا ان يسمح لنا باعادة استخدام الدزال الخاصة بكلاس ال object باستخدام override@ 
 
+//anonymous object هو كائن يتم انشاءة واستخدامة دون تخزينة في متغير مستقل باسمة 
+// وهذا النوع نستخدمة عندما نريد استخدامة مره واحدة فننشاة مباشرة دون متغير 
+
 void main(){
+  //useing object 
   cat lolo=cat();
   List<Object> object=[lolo];
+
+  // using anonymous
+  car().print1();
 }
+
+// هذا الكلاس لشرح ال استخدام الobject 
 class cat{
 
+}
+
+// هذا الكلاس لشرح استخدام anonymous
+class car{
+  print1(){
+    print("hi this is for class");
+  }
 }
